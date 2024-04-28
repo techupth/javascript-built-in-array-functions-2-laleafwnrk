@@ -374,4 +374,7 @@ const bills = [
 ];
 
 // Start coding here
-const billMembers;
+const billMembers = bills.map((bill)=>{
+  return bill.member.name;
+});
+console.log(billMembers);
